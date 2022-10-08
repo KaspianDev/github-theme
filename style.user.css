@@ -3,10 +3,10 @@
 @namespace https://github.com/Dracula
 @homepageURL https://github.com/Dracula/github
 @supportURL https://github.com/Dracula/github/issues
-@version 1.1.1
+@version 1.2
 @updateURL https://github.com/Dracula/github/raw/master/style.user.css
 @description  🧛🏻‍♂️ Dark theme for Github
-@author Umbreon
+@author Umbreon, Forked by Kaspian
 @license MIT
 
 @preprocessor stylus
@@ -203,7 +203,7 @@ background-color: draculaW-blackSecondary
             --color-header-bg: #383a59;
         }
         else {
-            --color-header-bg: #282a36;
+            --color-header-bg: #23252f;
         }
         --color-header-divider: #8b949e;
         --color-header-logo: #f0f6fc;
@@ -312,14 +312,14 @@ background-color: draculaW-blackSecondary
         --color-fg-subtle: #484f58;
         --color-canvas-default: #282a36;
         --color-canvas-overlay: #282a36;
-        --color-canvas-inset: #282a36;
+        --color-canvas-inset: #252732;
         --color-canvas-subtle: #323543;
         --color-border-default: #44475a;
         --color-border-muted: #44475a;
         --color-border-subtle: rgba(240, 246, 252, 0.1);
         --color-shadow-small: 0 0 transparent;
-        --color-shadow-medium: 0 3px 6px #010409;
-        --color-shadow-large: 0 8px 24px #010409;
+        --color-shadow-medium: 0 3px 6px rgb(24, 25, 32);
+        --color-shadow-large: 0 8px 24px rgb(33, 34, 44);
         --color-shadow-extra-large: 0 12px 48px #010409;
         --color-neutral-emphasis-plus: #6e7681;
         --color-neutral-emphasis: #6e7681;
@@ -483,6 +483,14 @@ background-color: draculaW-blackSecondary
 
     .TimelineItem-badge {
         border: transparent;
+    }
+
+    .avatar-user {
+        box-shadow: 0 0 0 1px rgb(189, 147, 249), 0 0 0 1px rgb(189, 147, 249);
+    }
+
+    .Header {
+        border-bottom: 1px solid var(--color-btn-border);
     }
 
     .dropdown-item:focus,
