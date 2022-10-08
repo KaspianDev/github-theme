@@ -3,10 +3,10 @@
 @namespace https://github.com/Dracula
 @homepageURL https://github.com/Dracula/github
 @supportURL https://github.com/Dracula/github/issues
-@version 1.3
+@version 1.4
 @updateURL https://github.com/Dracula/github/raw/master/style.user.css
 @description  🧛🏻‍♂️ Dark theme for Github
-@author Umbreon
+@author Umbreon, Forked by Kaspian
 @license MIT
 
 @preprocessor stylus
@@ -309,7 +309,7 @@ background-color: draculaW-blackSecondary
         --color-action-list-item-danger-hover-text: #ff7b72;
         --color-fg-default: #f8f8f2;
         --color-fg-muted: #8b949e;
-        --color-fg-subtle: #484f58;
+        --color-fg-subtle: #5f6581;
         --color-canvas-default: #282a36;
         --color-canvas-overlay: #282a36;
         --color-canvas-inset: #252732;
